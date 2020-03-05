@@ -1,5 +1,5 @@
 import { Component, OnInit, Output, EventEmitter, Input } from '@angular/core';
-import { EcoNewsService } from 'src/app/service/eco-news/eco-news.service';
+import { EcoNewsService } from 'src/app/component/eco-news/services/eco-news.service';
 
 @Component({
   selector: 'app-news-list',
