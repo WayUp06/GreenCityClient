@@ -2,6 +2,7 @@ import { environment } from 'src/environments/environment';
 
 // back-end
 export const mainLink = environment.backendLink;
+export const mockedBackApi = 'http://localhost:3000';
 
 export const userOwnSecurityLink = mainLink + 'ownSecurity/';
 export const userOwnSignUpLink = userOwnSecurityLink + 'signUp/';
@@ -26,3 +27,4 @@ export const subscriptionLink = mainLink + 'newsSubscriber';
 // front-end
 export const frontMailLink = environment.frontendLink;
 export const frontAuthLink = frontMailLink + 'auth/';
+export const preparedImageForCreateEcoNews = 'https://cdn3.iconfinder.com/data/icons/popular-services-brands/512/angular-js-256.png';
